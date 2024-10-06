@@ -8,7 +8,7 @@
         missingFeatures.push("WebGL");
     if (typeof WebAssembly === "undefined")
         missingFeatures.push("WebAssembly");
-    if (!("noModule"in HTMLScriptElement.prototype))
+    if (!("noModule" in HTMLScriptElement.prototype))
         missingFeatures.push("JavaScript Modules");
     if (missingFeatures.length === 0 && !isKasperskyScriptInjected)
         window["C3_Is_Supported"] = true;
@@ -42,5 +42,4 @@
         msgBody.innerHTML = msgText;
         msgWrap.appendChild(msgBody)
     }
-}
-)();
+})();
