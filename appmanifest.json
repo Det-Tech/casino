@@ -1,7 +1,7 @@
 {
-	"name": "Tiger Year Casino",
-	"short_name": "Tiger Year Casino",
-	"description": "Tiger Year Casino",
+	"name": "Random Casino",
+	"short_name": "Random Casino",
+	"description": "Random Casino",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "landscape",
